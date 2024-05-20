@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 javac hello.java
-                java hello
+                java hello.java
             }
         }
       
